@@ -4,8 +4,12 @@ window.onload = function(event) {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
 	function convert(string) {
+		let regex = /^[01\s]/g;
+		
 		if (string === "") {
 			display("???");
+		} else if (!regex.test(string)) {
+			display("Binary string must only contain: 0, 1 or whitespace");
 		} else {
 			let newString = "";
 
