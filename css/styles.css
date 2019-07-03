@@ -15,3 +15,42 @@ body, html {
 	/*color: white;*/
 	color: green;
 }
+
+
+
+/* HEADER */
+h1 {
+	margin: 0;
+	padding: 1vh 0;
+}
+
+header {
+	/*border-bottom: 1px green solid;*/
+}
+
+.hidden {
+	display: none;
+}
+
+#chevron {
+	display: block;
+	/*transform: scale(2, 1);*/
+	border-bottom: 1px green solid;
+	min-width: 100%;
+	padding: 0 0 1vh;
+	font-size: 1.4em;
+}
+
+#task {
+	position: absolute;
+	border-bottom: 1px green solid;
+	padding: 0.5vh 10vw;
+}
+
+
+
+/* MAIN */
+
+
+
+/* FOOTER */
