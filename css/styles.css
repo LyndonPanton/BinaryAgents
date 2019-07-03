@@ -61,8 +61,7 @@ main {
 	margin: 5vh 15vw;
 	border: 2px green solid;
 	border-radius: 5px;
-	padding-top: 2vh;
-	padding-bottom: 2vh;
+	padding: 2vh 5vw;
 }
 
 #form-binary {
