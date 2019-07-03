@@ -39,8 +39,10 @@ h1 {
 
 #task {
 	position: absolute;
+	z-index: 1;
 	border-bottom: 1px green solid;
 	padding: 0.5vh 10vw;
+	background-color: black;
 }
 
 
