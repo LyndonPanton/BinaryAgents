@@ -14,3 +14,9 @@
 ## Requirements
 > 1. This project requires a browser to run
 > 2. The browser must have JavaScript available and enabled
+
+## Errors
+> 1. N/A
+
+## Extra Information
+> 1. This was done for one of the activites in freecodecamp's Intermediate Algorithm Scripting section
