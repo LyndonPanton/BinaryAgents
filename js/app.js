@@ -200,7 +200,7 @@ window.onload = function(event) {
 	      		case "00100001":
 			        newString = newString + "!";
 			        break;
-	      		case "100010":
+	      		case "00100010":
 			        newString = newString + "\"";
 			        break;
 	      		case "00100011":
@@ -327,5 +327,12 @@ window.onload = function(event) {
 		if (event.keyCode === 13 || event.keyCode === 32) {
 			toggle(this);
 		}
+	});
+
+	let form = document.getElementById("form");
+	form.addEventListener("submit", function(event) {
+		event.preventDefault();
+
+		convert(this.children[0].value);
 	});
 };
