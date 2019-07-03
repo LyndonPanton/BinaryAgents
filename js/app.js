@@ -299,7 +299,11 @@ window.onload = function(event) {
 	   		}
 		}
 
-  		return newString;
+  		display(newString);
+	}
+
+	function display(string) {
+		document.getElementById("converted").textContent = string;
 	}
 
 	function toggle(chevron) {
