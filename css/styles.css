@@ -95,3 +95,35 @@ main {
 
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	border-top: 1px green solid;
+	min-width: 100%;
+	padding: 2vh 0;
+}
+
+.more-link {
+	color: green;
+}
+
+.more-link:active {
+	color: lightgreen !important;
+}
+
+.more-link:hover {
+	color: grey;
+}
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding: 1vh 0 0;
+	font-size: 1.4em;
+}
